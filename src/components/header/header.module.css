@@ -1,0 +1,52 @@
+.container{
+    margin: 42px;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__text{
+    font-weight: bold;
+    font-family: 'Beatrice Trial', sans-serif;
+    font-style: italic;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+.header__info{
+    display: flex;
+    gap: 12px;
+}
+.header__error{
+    visibility: hidden;
+    font-family: Inter sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    width: 408px;
+    height: 56px;
+    align-items: center;
+    gap: 10px;
+    background-color: #0F1318;
+    justify-content: center;
+    border-radius: 4px;
+}
+.header__reset{
+    font-family: Inter sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204px;
+    height: 56px;
+    background-color: #EB0237;
+    gap: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}

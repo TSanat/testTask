@@ -1,0 +1,55 @@
+.container{
+    margin: 42px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B0E12;
+    padding: 16px 36px;
+}
+.command{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-family: Inter sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.score{
+    font-family: Inter sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.statusGreen{
+    font-family: Inter sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 34px;
+    background-color: #43AD28;
+    border-radius: 4px;
+}
+.statusRed{
+    font-family: Inter sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 21px;
+    background-color: #EB0237;
+    border-radius: 4px;
+}
+.statusYellow{
+    font-family: Inter sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 9px;
+    background-color: #EB6402;
+    border-radius: 4px;
+}
