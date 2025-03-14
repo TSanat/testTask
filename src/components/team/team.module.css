@@ -1,0 +1,57 @@
+.team__players{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    max-width: 874px;
+    width: 100%;
+}
+.player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    background-color: #101318;
+}
+.name{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+.gray{
+    font-family: Inter sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #FAFAFA66;
+    opacity: 0.4;
+}
+.common{
+    font-family: Inter sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #F2F6F6;
+    opacity: 1;
+}
+.team__score{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    background-color: #101318;
+}
+.team__p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: 264px;
+    width: 100%;
+}

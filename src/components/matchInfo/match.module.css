@@ -1,0 +1,8 @@
+.match__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+    padding: 12px;
+}
